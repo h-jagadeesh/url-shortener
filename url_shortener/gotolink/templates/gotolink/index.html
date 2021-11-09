@@ -1,9 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Url Shortener</title>
+	<title>URL Shortener</title>
+	<link rel="stylesheet" href="{% static 'gotolink/styles.css' %}">
+
 </head>
 <body>
-	
+  <h1 id="greet">Welcome to URL Shortener</h1>
+  <form id="post-form">
+    {% csrf_token %}
+  <input type="text" placeholder="Paste URL here" name="link" id="link">
+  <button type="submit" id="shorten">Shorten</button>
+  </form>
+  
 </body>
 </html>
