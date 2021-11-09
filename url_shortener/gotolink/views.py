@@ -4,3 +4,6 @@ from django.http import HttpResponse
 
 def index(request):
 	return render(request,"gotolink/index.html")
+
+def success(request):
+	return render(request,"gotolink/success.html")
