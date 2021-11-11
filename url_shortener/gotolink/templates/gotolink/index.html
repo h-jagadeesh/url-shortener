@@ -8,7 +8,7 @@
 </head>
 <body>
   <h1 id="greet">Welcome to URL Shortener</h1>
-  <form action="{% url 'success' %}" id="post-form">
+  <form action="{% url 'gotolink:success' %}" method="post">
     {% csrf_token %}
   <input type="text" placeholder="Paste URL here" name="link" id="link">
   <button type="submit">Shorten your URL</button>
