@@ -1,7 +1,4 @@
 alabaster==0.7.9
-anaconda-client==1.6.0
-anaconda-navigator==1.5
-anaconda-project==0.4.1
 appdirs==1.4.3
 asgiref==3.4.1
 astroid==1.4.9
@@ -19,7 +16,6 @@ chardet==2.3.0
 chest==0.2.3
 click==6.7
 cloudpickle==0.2.2
-clyent==1.2.2
 colorama==0.3.7
 comtypes==1.1.2
 conda==4.3.14
